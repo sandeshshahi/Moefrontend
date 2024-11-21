@@ -17,7 +17,7 @@ export default function Table() {
         <tbody className="">
           <tr className="border border-b-1 border-t-0 border-l-0 border-r-0 border-gray-400 ">
             <td className="text-center text-base/8 font-semibold text-gray-900 py-3">
-              policy2
+              gg
             </td>
             <td className="text-center text-base/8 font-semibold text-gray-900">
               gg

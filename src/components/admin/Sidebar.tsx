@@ -1,9 +1,10 @@
+import CartPage from "../CartPage";
 import Table from "../Table";
 
 const Sidebar = () => {
   return (
-    <div className="flex h-screen">
-      <div className="max-h-screen grid grid-cols-7">
+    <div className="flex h-screen w-full">
+      <div className="max-h-screen grid grid-cols-7 w-full">
         {/* sidebar */}
         <aside className="bg-gray-800 pr-0.5 text-blue-500 h-[calc(100vh-90px)] col-start-1 col-span-1 sticky top-[90px]">
           <nav className="px-1 mt-3 h-full">
@@ -27,7 +28,8 @@ const Sidebar = () => {
 
         {/* content */}
         <main className="bg-blue-100 col-start-2 col-span-6 overflow-y-auto p-4">
-          <Table />
+          {/* <Table /> */}
+          <CartPage />
         </main>
       </div>
     </div>
