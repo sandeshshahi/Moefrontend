@@ -36,15 +36,11 @@ const CartPage = () => {
               <button className="px-2 py-2 text-gray-500 border rounded">
                 -
               </button>
-              <input
-                type="text"
-                readOnly
-                className="w-12 text-center border rounded"
-              />
+              <span className="px-2 py-2 text-center border rounded">20</span>
               <button className="px-2 py-2 text-gray-500 border rounded">
                 +
               </button>
-              <button className="ml-4 text-red-500 hover:text-red-700 bg-red-100 p-2 rounded-md">
+              <button className="ml-4 text-red-500 hover:bg-red-500 hover:text-white bg-red-100 p-2 rounded-md">
                 Remove
               </button>
             </div>
