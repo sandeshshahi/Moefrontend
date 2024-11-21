@@ -15,7 +15,7 @@ export default function Table() {
           </tr>
         </thead>
         <tbody className="">
-          <tr className="border border-b-1 border-t-0 border-l-1 border-r-1 border-gray-400 ">
+          <tr className="border border-b-1 border-t-0 border-l-0 border-r-0 border-gray-400 ">
             <td className="text-center text-base/8 font-semibold text-gray-900 py-3">
               policy2
             </td>
